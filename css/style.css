@@ -1,0 +1,110 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+
+/* Utilities */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.head,
+.presentation-info,
+.main-content,
+.foot{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* Header */
+.head{
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.head .logo img{
+    width: ;
+}
+
+.navigation-bar .nav-menu{
+    margin-top: ;
+}
+
+.nav-menu li{
+    display: inline-block;
+    list-style: none;
+    padding-right: ;
+}
+
+.nav-menu li:last-child{
+    padding-right: 0;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.nav-menu li a:hover{
+    color: black;
+}
+
+/* Presentation-info sect. */
+.presentation-info{
+    height: 400px;
+    background-color: rgb(217, 230, 41);
+}
+
+
+/* Main-content */
+.main-content{
+    height: 600px;
+    background-color: rgb(42, 92, 255);
+    padding-bottom: 18px;
+}
+
+.main-leadership{
+    height: 90px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.col-wrapper .bar{
+    float: left;
+    height: 450px;
+    background-color: lightblue;
+}
+
+.col-wrapper .left-side,
+.col-wrapper .right-side{
+   width: calc(20% - 10px);
+}
+
+.col-wrapper .central-part{
+    width: 60%;
+    margin: 0 10px;
+}
+
+
+/* Footer */
+.foot{
+    height: 50px;
+    background-color: purple;
+}
