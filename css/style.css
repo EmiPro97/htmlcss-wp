@@ -4,11 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-weight: 600;
+h2, h3, h4, h5, h6{
+    color: black;
 }
 
 
@@ -24,13 +23,23 @@ h1, h2, h3, h4, h5, h6{
     clear: both;
 }
 
+.bg-shadow{
+    height: 100%;
+    background-color: rgba(112, 108, 108, 0.2);
+    border-radius: 10px;
+}
+
+.red-heart{
+    color: red;
+}
+
 
 /* Sections margin */
 .head,
-.banner-area,
+.banner-img,
 .main-content,
 .foot{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -65,27 +74,20 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 5px;
 }
 
+
 /* Banner-Area sect. */
-.banner-area{
+.banner-img{
     height: 500px;
     border-radius: 10px;
 }
 
-.banner-area .banner-size{
-    height: 100%;
-}
-
-.banner-area .banner-img{
+.banner-img{
     background-image: url(../img/banner.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
-.banner-area .bg-shadow{
-    background-color: rgba(61, 61, 61, 0.2);
-}
-
-.banner-area .bg-shadow .title-wrapper{
+.banner-img .bg-shadow .title-wrapper{
     width: 500px;
     color: white;
     padding-left: 50px;
@@ -93,38 +95,63 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/* Main-content */
+/* Leadership */
 .main-content{
-    height: 600px;
-    background-color: rgb(42, 92, 255);
-    padding-bottom: 18px;
+    color: #858585;
 }
 
-.main-leadership{
-    height: 90px;
-    background-color: lightblue;
-    margin-bottom: 20px;
+.main-content .leadership{
+    margin-bottom: 40px;
 }
 
-.col-wrapper .bar{
+.leadership h2{
+    font-size: 30px;
+}
+
+
+/* Columns sect. */
+.main-col-wrapper .col{
     float: left;
-    height: 450px;
-    background-color: lightblue;
+    padding-bottom: 30px;
 }
 
-.col-wrapper .left-side,
-.col-wrapper .right-side{
-   width: calc(20% - 10px);
+.main-col-wrapper .left-side.col,
+.main-col-wrapper .right-side.col{
+   width: calc(20% - 20px);
 }
 
-.col-wrapper .central-part{
+.main-col-wrapper .central-part.col{
     width: 60%;
-    margin: 0 10px;
+    margin: 0 20px;
+}
+
+.main-col-wrapper .img-col{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-col-wrapper h3{
+    margin: 15px 0;
+}
+
+.main-col-wrapper .left.img-col{ 
+    background-image: url(../img/img-1.jpg);
+}
+
+.main-col-wrapper .central.img-col{
+    background-image: url(../img/img-2.jpg);
+}
+
+.main-col-wrapper .right.img-col{
+    background-image: url(../img/img-3.jpg);
 }
 
 
 /* Footer */
 .foot{
-    height: 50px;
-    background-color: purple;
+    color: black;
+    text-align: center;
 }
