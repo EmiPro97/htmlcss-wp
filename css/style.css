@@ -4,12 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
 }
+
 
 /* Utilities */
 .container{
@@ -23,33 +24,29 @@ h1, h2, h3, h4, h5, h6{
     clear: both;
 }
 
+
+/* Sections margin */
 .head,
 .presentation-info,
 .main-content,
 .foot{
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 
 /* Header */
-.head{
-    height: 150px;
-    background-color: aquamarine;
-}
-
 .head .logo img{
-    width: ;
+    width: 180px ;
 }
 
 .navigation-bar .nav-menu{
-    margin-top: ;
+    margin-top: 40px;
 }
 
 .nav-menu li{
     display: inline-block;
     list-style: none;
-    padding-right: ;
+    padding-right: 10px;
 }
 
 .nav-menu li:last-child{
@@ -59,7 +56,7 @@ h1, h2, h3, h4, h5, h6{
 .nav-menu li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: gray;
+    color: #858585;
 }
 
 .nav-menu li a:hover{
