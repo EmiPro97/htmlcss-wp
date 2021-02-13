@@ -46,8 +46,47 @@ h2, h3, h4, h5, h6{
 /* Header */
 .head .logo img{
     width: 180px ;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    margin-right: 20px;
 }
 
+.head .socials, .socials li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+/* Icons */
+.fab:hover{
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+
+.fa-instagram:hover{
+    color:  #E1306C;
+}
+
+.fa-twitter:hover{
+    color: dodgerblue;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+.fa-twitch:hover{
+    color: purple;
+}
+
+
+/* Navigation-bar */
 .navigation-bar .nav-menu{
     margin-top: 40px;
 }
